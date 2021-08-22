@@ -3,11 +3,113 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title</title>
+    <title>Kältemaschinen</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+    >
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="icon" href="../src/images/favicon.jpg">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    >
     <link rel="stylesheet" href="./styles/main.scss">
   </head>
   <body>
-    <h1>Hello Mate Academy</h1>
+    <header class="header">
+      <div class="container">
+        <div class="header__content">
+          <img
+            src="./images/Logo.png"
+            alt="logo"
+            class="header__logo"
+          >
+          <input
+            id="toggle"
+            type="checkbox"
+            class="toggle toggle--checkbox"
+          >
+          <label for="toggle" class="btn btn--position">
+            <span class="btn__off"></span>
+          </label>
+          <nav class="navigation nav">
+            <ul class="navigation__list">
+              <li class="navigation__item">
+                <a href="" class="navigation__link"> Über Uns </a>
+              </li>
+              <li class="navigation__item nav-item dropdown">
+                <a
+                  class="navigation__link nav-link dropdown-toggle navigation__drop"
+                  data-toggle="dropdown"
+                  href="#"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Produkte
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Action</a>
+                </div>
+              </li>
+              <li class="navigation__item nav-item dropdown">
+                <a
+                  class="navigation__link nav-link dropdown-toggle navigation__drop"
+                  data-toggle="dropdown"
+                  href="#"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Peripherietechnik
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                </div>
+              </li>
+              <li class="navigation__item nav-item dropdown">
+                <a
+                  class="navigation__link navigation__drop nav-link dropdown-toggle
+                  "
+                  data-toggle="dropdown"
+                  href="#"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Dienstleistungen
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                </div>
+              </li>
+              <li class="navigation__item">
+                <a href="#" class="navigation__link"> Klimatechnik </a>
+              </li>
+              <li class="navigation__item">
+                <a href="#" class="navigation__link"> Kontakt </a>
+              </li>
+              <li class="navigation__item">
+                <a href="#" class="navigation__link"> Presse </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="scripts/main.js"></script>
   </body>
 </html>
