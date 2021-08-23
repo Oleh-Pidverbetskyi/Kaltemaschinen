@@ -1,6 +1,27 @@
-@mixin hover($_property, $_toValue) {
-  transition: #{$_property} 0.3s;
-  &:hover {
-    #{$_property}: $_toValue;
-  }
+@mixin title-text-param {
+  font-family: BBC Reith Sans, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 2.42px;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+
+@mixin text-standart-param {
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 32px;
+  margin-bottom: 40px;
+}
+
+@mixin section-title {
+  font-family: BBC Reith Sans, sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: 4.42px;
+  color: #020303;
+  text-align: center;
+  text-transform: uppercase;
 }
