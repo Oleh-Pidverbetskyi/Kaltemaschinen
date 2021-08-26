@@ -9,10 +9,12 @@
 
   &__hidden--logo {
     display: none;
+    @include logo-hover;
   }
 
   &__logo {
     display: block;
+    @include logo-hover;
   }
 
   &__wrap {

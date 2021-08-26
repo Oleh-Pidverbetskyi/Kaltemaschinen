@@ -33,3 +33,11 @@
   min-width: 100px;
   min-height: 100px;
 }
+
+@mixin logo-hover {
+  transition: transform 0.5s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}

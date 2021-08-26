@@ -11,5 +11,10 @@
   &__logo {
     max-width: 104px;
     max-height: 40px;
+    transition: transform 0.5s;
+
+    &:hover {
+      transform: scale(1.1);
+    }
   }
 }
