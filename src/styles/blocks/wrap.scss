@@ -1,0 +1,7 @@
+.wrap {
+  display: flex;
+
+  @media screen and (max-width: 680px) {
+    flex-direction: column;
+  }
+}

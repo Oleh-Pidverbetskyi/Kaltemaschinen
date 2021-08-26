@@ -1,0 +1,22 @@
+.blue__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background: linear-gradient(180deg, #0c5cd6 0%, rgba(0, 56, 140, 0) 100%),
+    #004fc7;
+  border: 1px solid #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.21);
+  border-radius: 12px;
+  font-family: BBC Reith Sans, sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 40px;
+  letter-spacing: 1.42px;
+  color: #fafbfe;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: rgb(255, 255, 255);
+  }
+}

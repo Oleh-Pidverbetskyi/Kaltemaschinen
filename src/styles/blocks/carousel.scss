@@ -1,0 +1,51 @@
+.carousel {
+  &__inner {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  &__indicators {
+    position: static;
+    margin-top: 15px;
+  }
+
+  &__indicator {
+    width: 9px !important;
+    height: 9px !important;
+    background: #5a85da !important;
+    opacity: 0.35;
+    border-radius: 50%;
+    border-top: none !important;
+    border-bottom: none !important;
+  }
+
+  &__btn {
+    position: static;
+    max-width: 80px;
+    height: 50px;
+    box-shadow: 0 0 21px rgba(64, 68, 75, 0.4);
+    border-radius: 8px;
+    top: auto;
+    bottom: auto;
+
+    &--right {
+      background-image: url(../images/Vector2.png);
+    }
+    &--left {
+      background-image: url(../images/Vector1.png);
+    }
+  }
+
+  &__wrap--btn {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 78px;
+  }
+
+  @media screen and (max-width: 600px) {
+    &__btn {
+      display: none;
+    }
+  }
+}

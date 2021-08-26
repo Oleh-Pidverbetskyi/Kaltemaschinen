@@ -1,0 +1,64 @@
+@media screen and (min-width: 320px) and (max-width: 1050px) {
+  .btn {
+    align-items: center;
+    width: 26px;
+    height: 26px;
+
+    &__off,
+    &__off::before,
+    &__off::after {
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      background-color: #616161;
+      transition-duration: 0.25s;
+    }
+    &__off::before {
+      content: "";
+      top: -8px;
+    }
+    &__off::after {
+      content: "";
+      top: 8px;
+    }
+  }
+
+  .btn--position {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    right: 46px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 2;
+  }
+
+  .navigation {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    margin: 0;
+    padding: 60px 20px;
+    list-style: none;
+    background-color: rgb(128, 128, 128);
+    z-index: 1;
+    transition: 1s;
+
+    &--active {
+      right: 0;
+    }
+
+    &__list {
+      display: flex;
+      flex-direction: column;
+      padding: 12px 24px;
+    }
+  }
+
+  .toggle {
+    display: none;
+  }
+}

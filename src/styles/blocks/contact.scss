@@ -1,0 +1,19 @@
+.contact {
+  &__text {
+    max-width: 410px;
+    @include text-standart-param;
+  }
+
+  &__btn {
+    justify-content: start;
+    gap: 33px;
+    width: 306px;
+    height: 70px;
+  }
+
+  @media screen and (max-width: 785px) {
+    &__btn {
+      max-width: 310px;
+    }
+  }
+}

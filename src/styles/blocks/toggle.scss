@@ -1,0 +1,15 @@
+.toggle {
+  display: none;
+
+  &:checked ~ .btn > span {
+    transform: rotate(45deg);
+  }
+  &:checked ~ .btn > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+  &:checked ~ .btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+}

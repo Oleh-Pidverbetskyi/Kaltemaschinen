@@ -1,0 +1,18 @@
+.feature {
+  &__wrap {
+    padding: 30px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+  }
+
+  &__title {
+    @include section-title;
+    margin-bottom: 71px;
+  }
+
+  @media screen and (max-width: 680px) {
+    &__title {
+      font-size: 20px;
+    }
+  }
+}

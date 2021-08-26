@@ -39,7 +39,7 @@
           <nav class="navigation nav">
             <ul class="navigation__list">
               <li class="navigation__item">
-                <a href="" class="navigation__link"> Über Uns </a>
+                <a href="#advantage" class="navigation__link"> Über Uns </a>
               </li>
               <li class="navigation__item nav-item dropdown">
                 <a
@@ -93,10 +93,10 @@
                 <a href="#" class="navigation__link"> Klimatechnik </a>
               </li>
               <li class="navigation__item">
-                <a href="#" class="navigation__link"> Kontakt </a>
+                <a href="#appointment" class="navigation__link"> Kontakt </a>
               </li>
               <li class="navigation__item">
-                <a href="#" class="navigation__link"> Presse </a>
+                <a href="#footer" class="navigation__link"> Presse </a>
               </li>
             </ul>
           </nav>
@@ -111,6 +111,10 @@
               <h1 class="general__title">
                 Luftkondensierte Kältemaschinen <br> & Kaltwassersätze
               </h1>
+              <img
+              src="./images/Air_Colled_Chillers_Small.png" alt="air-condensed compression refrigeration machines"
+              class="general__media"
+            >
               <p class="general__text">
                 Aufgrund der kompakten Bauart werden platzsparende<br>
                 luftkondensierte Kompressionskältemaschinen<br>(umgangsspr.„Kaltwassersätze“) vielseitig zur<br>Prozesskühlung und
@@ -160,30 +164,25 @@
         </div>
       </section>
       <section class="speciality">
-        <div class="container">
-          <div class="speciality__container">
-            <div class="speciality__wrap">
-              <h3 class="speciality__title">
+        <div class="speciality__container">
+          <div class="speciality__wrap">
+            <h3 class="speciality__title">
                   Unsere Spezialität besteht aus unseren Kaltwassersätzen mit integrierter Freikühleinheit.
-              </h3>
-              <p class="speciality__text">
+            </h3>
+            <p class="speciality__text">
                   Doppelkanal Mikrochannel Wärmetauscher kühlen das Prozesswasser energiesparend über ambiente Umgebungsluft.
-              </p>
-              <p class="speciality__text">
-                <strong>Nur bei heißen Außentemperaturen erfolgt die Umschaltung auf Kompressionskälteerzeugung.Diese Maximierung der Freikühlzeit erzielt größtmögliche Kosteneinsparungen</strong> <br>auch bei kleinen Nennleistungen.
-              </p>
-            </div>
-            <div class="gradient">
-              <img
-                src="./images/IconHotToCold.png" alt="IconHotToCold"
-                class="gradient__img"
-              >
-            </div>
+            </p>
+            <p class="speciality__text">
+              <strong>Nur bei heißen Außentemperaturen erfolgt die Umschaltung auf Kompressionskälteerzeugung.Diese Maximierung der Freikühlzeit erzielt größtmögliche Kosteneinsparungen</strong> <br>auch bei kleinen Nennleistungen.
+            </p>
+          </div>
+          <div class="gradient">
+            <div class="gradient__item"></div>
+            <div class="gradient__item"></div>
           </div>
         </div>
-        </div>
       </section>
-      <section class="advantage">
+      <section class="advantage" id="advantage">
         <div class="container">
           <h2 class="advantage__title">
              Ihre vorteile
@@ -397,10 +396,196 @@
           </div>
         </div>
       </section>
+      <section class="bilder">
+        <div class="container">
+          <h2 class="bilder__title">
+            Bilder
+          </h2>
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner carousel__inner">
+              <div class="carousel-item active carousel__width">
+                <img
+                  src="./images/bilder1.png"
+                  class="d-block w-100"
+                  alt="bilder"
+                >
+              </div>
+              <div class="carousel-item carousel__width">
+                <img
+                  src="./images/bilder1.png"
+                  class="d-block w-100"
+                  alt="bilder"
+                >
+              </div>
+              <div class="carousel-item carousel__width">
+                <img
+                  src="./images/bilder1.png"
+                  class="d-block w-100"
+                  alt="bilder"
+                >
+              </div>
+            </div>
+            <div class="carousel-indicators carousel__indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators carousel__wrap" data-bs-slide-to="0"
+                class="active carousel__indicator"
+                aria-current="true"
+                aria-label="Slide 1"
+              >
+              </button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"
+                class="carousel__indicator"
+              >
+              </button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"
+                class="carousel__indicator"
+              >
+              </button>
+            </div>
+            <div class="carousel__wrap--btn">
+              <button
+                class="carousel-control-prev carousel__btn "
+                type="button"
+                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev"
+              >
+                <span class="carousel-control-prev-icon carousel__btn--left" aria-hidden="true"></span>
+                <span class="visually-hidden"></span>
+              </button>
+              <button
+                class="carousel-control-next carousel__btn "
+                type="button"
+                data-bs-target="#carouselExampleIndicators" data-bs-slide="next"
+              >
+                <span class="carousel-control-next-icon carousel__btn--right" aria-hidden="true"></span>
+                <span class="visually-hidden"></span>
+              </button>
+            </div>
+            <h2 class="bilder__title">
+              Besucher dieser seite suchten auch oft nach:
+            </h2>
+            <ul class="bilder__list">
+              <li class="bilder__item">
+                <a href="#" class="bilder__link blue__btn "> Glykolwannen</a>
+              </li>
+              <li class="bilder__item">
+                <a href="#" class="bilder__link blue__btn ">Wasseraufbereitung</a>
+              </li>
+              <li class="bilder__item">
+                <a href="#" class="bilder__link blue__btn "> Rohrleitungsbau</a>
+              </li>
+              <li class="bilder__item">
+                <a href="#" class="bilder__link blue__btn ">Wärmemengenmessungen</a>
+              </li>
+              <li class="bilder__item">
+                <a href="#" class="bilder__link blue__btn ">Anlageleasing</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="appointment" id="appointment">
+        <div class="container">
+          <div class="appointment__wrap">
+            <img
+              src="./images/logo_grey.png"
+              alt="grey logo"
+              class="appointment__hidden--logo"
+            >
+            <h3 class="appointment__title">
+              Jetzt Termin vereinbaren!
+            </h3>
+            <div class="contact">
+              <p class="contact__text">
+                Gerne stehen wir Ihnen für eine individuelle Beratung telefonisch und vor Ort zur Verfügung und freuen uns über Ihre Kontaktaufnahme. Sprechen Sie uns an!
+              </p>
+              <p
+                class="contact__text">
+                Fragen Sie nach einem Rückruf oder kontaktieren Sie uns unter: <a
+                href="mailto:info@elsasser-technik.de" class="contact__email">info@elsasser-technik.de </a>
+              </p>
+              <button class="contact__btn blue__btn">
+                <img
+                  src="./images/Arrow 4.png"
+                  alt="arrow"
+                  class="contact__btn--arrow"
+                >
+                Kontakt
+              </button>
+            </div>
+            <img
+              src="./images/logo_grey.png"
+              alt="grey logo"
+              class="appointment__logo"
+            >
+          </div>
+        </div>
+      </section>
+      <footer class="footer" id="footer">
+        <div class="container">
+          <div class="footer__wrap">
+            <div class="footer__relation">
+              <h4 class="footer__title">
+                Elsässer Kältetechnik
+              </h4>
+              <p class="footer__text">
+                Königsallee 14 <br>
+                40212 Düsseldorf
+              </p>
+            </div>
+            <div class="footer__relation">
+              <h4 class="footer__title">
+                Kontakt
+              </h4>
+              <p class="footer__text">
+                <div class="footer__text">Telefon: <a href="tel:+49021192323052" class="footer__phone"> +49 (0) 211 9232 3052</a></div>
+                <div class="footer__text">E-Mail: <a href="mailto:info@elsasser-technik.de" class="footer__email">info@elsasser-technik.de</a></div>
+              </p>
+            </div>
+            <div class="footer__relation">
+              <h4 class="footer__title">
+                Shortlinks
+              </h4>
+              <p class="footer__text">
+                <a href="#" class="footer__link">Kontakt</a>
+                <a href="#" class="footer__link"> Rückruf vereinbaren</a>
+              </p>
+            </div>
+            <div class="footer__relation">
+              <h4 class="footer__title footer__hidden">
+                Shortlinks
+              </h4>
+              <p class="footer__text">
+                <a href="#" class="footer__link">Impressum</a>
+                <a href="#" class="footer__link"> Datenschutz</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
     </main>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous">
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous">
+    </script>
     <script type="text/javascript" src="scripts/main.js"></script>
   </body>
 </html>

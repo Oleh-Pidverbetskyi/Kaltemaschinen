@@ -1,0 +1,45 @@
+.appointment {
+  padding: 73px 0;
+
+  &__logo,
+  &__hidden--logo {
+    max-width: 200px;
+    max-height: 76px;
+  }
+
+  &__hidden--logo {
+    display: none;
+  }
+
+  &__logo {
+    display: block;
+  }
+
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  }
+
+  &__title {
+    @include title-text-param;
+    text-transform: capitalize;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 785px) {
+    &__wrap {
+      flex-direction: column;
+    }
+
+    &__logo {
+      display: none;
+    }
+
+    &__hidden--logo {
+      display: block;
+    }
+  }
+}

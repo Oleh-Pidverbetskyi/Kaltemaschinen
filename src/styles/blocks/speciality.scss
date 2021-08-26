@@ -1,0 +1,38 @@
+.speciality {
+  padding: 90px 0 90px calc(50vw - 560px);
+  max-width: 2600px;
+
+  &__container {
+    display: flex;
+    gap: 50px;
+  }
+
+  &__title {
+    @include title-text-param;
+    color: $h1-title-color;
+  }
+
+  &__text {
+    @include text-standart-param;
+  }
+
+  @media screen and (max-width: 1145px) {
+    padding: 90px 0 90px 2%;
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 800px) {
+    padding: 90px 0;
+
+    &__container {
+      flex-direction: column-reverse;
+    }
+
+    &__title {
+      text-align: center;
+    }
+
+    &__wrap {
+      margin-left: 2%;
+    }
+  }
+}

@@ -6,6 +6,7 @@
   letter-spacing: 2.42px;
   text-transform: uppercase;
   margin-bottom: 22px;
+  color: #1652ac;
 }
 
 @mixin text-standart-param {
@@ -24,4 +25,11 @@
   color: #020303;
   text-align: center;
   text-transform: uppercase;
+}
+
+@mixin img-size {
+  max-width: 500px;
+  max-height: 500px;
+  min-width: 100px;
+  min-height: 100px;
 }

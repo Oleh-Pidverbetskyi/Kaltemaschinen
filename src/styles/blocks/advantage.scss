@@ -1,0 +1,41 @@
+.advantage {
+  padding: 60px 0;
+
+  &__title {
+    margin-bottom: 42px;
+    @include section-title;
+  }
+
+  &__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 9px;
+  }
+
+  &__card {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+    height: 136px;
+    width: 350px;
+
+    &__img {
+      max-width: 50px;
+      max-height: 50px;
+      margin-left: 30px;
+    }
+
+    &__text {
+      display: block;
+    }
+  }
+
+  @media screen and (max-width: 1100px) {
+    &__wrap {
+      justify-content: center;
+    }
+  }
+}

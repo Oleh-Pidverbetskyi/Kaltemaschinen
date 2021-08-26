@@ -1,0 +1,15 @@
+.header {
+  padding: 4px 0;
+  box-shadow: 0 2px 8px 0 rgba(212, 212, 212, 0.35);
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    max-width: 104px;
+    max-height: 40px;
+  }
+}
